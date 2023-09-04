@@ -8,7 +8,7 @@ class SuperClass {
 
 class SubClass extends SuperClass {
   String name = 'Sub';
-
+  
   @override
   void run() {
     super.run();
@@ -32,3 +32,11 @@ void main() {
   subClass.fly();
   print(subClass.name);
 }
+
+// superclass run 
+// Super
+// ------------------
+// superclass run
+// subclass fly
+// subclass fly 
+// Sub
