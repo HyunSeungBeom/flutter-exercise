@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-final counterProvider = StateProvider<int>((ref) => 0);
-
 void main() {
   runApp(ProviderScope(child: MyApp()));
 }
+
+final counterProvider = StateProvider<int>((ref) => 0);
 
 class MyApp extends StatelessWidget {
   @override
