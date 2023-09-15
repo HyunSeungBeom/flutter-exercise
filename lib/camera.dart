@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             onPressed: () {
               _openAppSettings();
             },
-            child: Text('개인정보 보호 및 보안'),
+            child: Text('개인정보 보호 및 보안'), 
           ),
         ),
       ),
