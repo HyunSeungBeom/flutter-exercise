@@ -12,7 +12,7 @@ void main() {
 
 class ThemeProvider with ChangeNotifier {
   bool isDarkMode = false;
-
+ 
   void toggleTheme() {
     isDarkMode = !isDarkMode;
     notifyListeners();
