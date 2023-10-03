@@ -12,5 +12,5 @@ class CounterBloc extends Bloc<CounterEvent, int> {
     } else if (event == CounterEvent.decrement) {
       yield state - 1;
     }
-  }
+  } 
 }
