@@ -11,7 +11,7 @@ class NextScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Next Screen'),
       ),
-      body: Center(
+      body: Center( 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
