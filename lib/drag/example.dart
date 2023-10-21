@@ -153,5 +153,5 @@ class _DragHandleExample extends State<DragHandleExample> {
       var movedList = _contents.removeAt(oldListIndex);
       _contents.insert(newListIndex, movedList);
     });
-  }
+  } 
 }

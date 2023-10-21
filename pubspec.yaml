@@ -46,6 +46,7 @@ dependencies:
   intl: ^0.18.1
   location: ^5.0.3
   drag_and_drop_lists: ^0.3.3
+  webview_flutter: ^4.4.1
 
 dev_dependencies:
   flutter_test:
