@@ -9,7 +9,7 @@ class NextScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Next Screen'),
+        title: Text('Next Screen'), 
       ),
       body: Center(   
         child: Column(
