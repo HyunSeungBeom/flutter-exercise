@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: BlocProvider(
-        create: (context) => CounterCubit(),
+        create: (context) => CounterCubit(), 
         child: CounterScreen(),
       ),
     );
@@ -28,7 +28,7 @@ class CounterScreen extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          children: [ 
             BlocBuilder<CounterCubit, int>(
               builder: (context, state) {
                 return Text('Count: $state', style: TextStyle(fontSize: 24));
