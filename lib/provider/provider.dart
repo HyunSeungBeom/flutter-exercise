@@ -15,7 +15,7 @@ class TodoListProvider with ChangeNotifier {
 
   void addTodo(String title) {
     _todos.add(Todo(title, false));
-    notifyListeners(); 
+    notifyListeners();
   }
 
   void toggleTodoStatus(int index) {
