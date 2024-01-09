@@ -29,3 +29,18 @@ class HomePage extends StatelessWidget {
     Get.put(ListViewModel());
   }
 }
+
+//등록한 뷰모델을 불러올 때는 아래처럼 호출(어디서든 호출 가능)
+ListViewModel viewModel = Get.find();
+
+// 뷰
+class ListView extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        ...
+        // Obx는 Rx 변경을 추적하는 위젯
+        // Rx로 선언한 clickCount가 변경되면 Obx 내부에 선언된 Text 위젯만 업데이트됨
+        Obx(() => Text('CLICK COUNT : ${viewModel.clickCount.value}'))
+        ...

@@ -9,9 +9,4 @@
 //   }
 // }
 
-void main() {
-  if (status == status.approved) {
-    print('approved');
-    return;
-  }
-}
+
