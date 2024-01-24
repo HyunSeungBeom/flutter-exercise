@@ -12,7 +12,7 @@ class BitcoinChartApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Bitcoin Price Chart'),
-        ),
+        ), 
         body: const BitcoinChart(),
       ),
     );
